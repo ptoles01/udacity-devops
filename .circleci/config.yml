@@ -27,3 +27,4 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+      - orb-tools/lint
